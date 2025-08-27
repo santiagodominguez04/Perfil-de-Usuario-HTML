@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    
+</body>
+<head>
+   <meta charset="UTF-8">
+   <meta name="description" content="Perfil de usuario ejemplo">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <header>
+    <div style="height: 100px; background-color: black; text-align: center; padding: 10px; color: white;">
+     <h1>Perfil de Usuario</h1>
+    </div>
+    <div style="text-align: center;">
+     <nav>
+        <a href="#bio">Biografia</a>
+        <a href="#contacto">Contacto</a>
+     </nav>
+    </div>
+    </header>
+
+    <main>
+        <div>
+             
+        <article style="text-align: center;"id="biografia">
+            <div style="background-color: grey; color: black;">
+            <h1>Biografia de Usuario</h1>
+            </div>
+            <img src="imgUsuario.jpg" alt="Foto de perfil" width="200" height="200">
+            <p style="text-align: center">Soy un estudiante avanzado de Ingenieria en Sistemas de Informacion en la Universidad Tecnologica Nacional.</p>
+        <article>
+        </div>
+
+        <section id="Contacto">
+            <div style="text-align: center; background-color: grey;">
+            <h2>Datos de contacto</h2>
+            </div>
+            <div style="text-align: center;">
+            <table border="1">
+                <thead>
+                    <tr>
+                        <!--No pongo cabecera de tabla porque es irrelevante-->>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Email</td>
+                        <td>juanperez04@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>Telefono</td>
+                        <td>+54 261-4678594</td>
+                    </tr>
+                </tbody>
+            </table>
+            </div>
+        </section>
+
+        <section>
+            <div style="background-color: grey; text-align: center; ">
+            <h2>Actualizacion de perfil</h2>
+            </div>
+
+            <div style="text-align: center;">
+            <form>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="Nombre" required><br><br>
+
+                <label for="email">Mail:</label>
+                <input type="text" id="mail" name="Mail" required><br><br>
+
+                <label for="comentario">Modificar biografia:</label>
+                <input type="text" id="comentario" name="Comentario" required><br><br>
+
+                <button type="submit">Actualizar</button>
+            </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>2025 Santiago Dominguez</p>
+    </footer>
+</body>
+</html>
